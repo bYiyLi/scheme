@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lisp" />
+        <module name="scheme" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lisp" target="1.5" />
+      <module name="scheme" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
